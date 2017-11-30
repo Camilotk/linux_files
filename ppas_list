@@ -8,7 +8,9 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0DF731E45
 echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
 sudo apt-add-repository ppa:ninja-ide-developers/ninja-ide-stable
 sudo add-apt-repository ppa:ubuntu-elisp/ppa
+sudo add-apt-repository ppa:videolan/master-daily
 sudo apt-get update
+sudo apt install vlc
 sudo apt-get install inkscape
 sudo apt-get install scribus
 sudo apt-get install shutter
@@ -23,6 +25,7 @@ sudo apt-get install git
 sudo apt-get install kalgebra
 sudo apt-get install emacs25
 sudo apt-get install vim
+sudo apt-get install gdebi
 sudo apt install racket
 sudo apt install intellij-idea-ultimate
 sudo apt-get update
