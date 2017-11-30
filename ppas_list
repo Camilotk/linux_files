@@ -1,4 +1,7 @@
 sudo add-apt-repository ppa:plt/racket
-
+sudo add-apt-repository ppa:ubuntuhandbook1/apps
+sudo add-apt-repository ppa:viktor-krivak/pycharm
 sudo apt-get update
 sudo apt install racket
+sudo apt install pycharm-professional
+sudo apt install intellij-idea-ultimate
