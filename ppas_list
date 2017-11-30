@@ -22,6 +22,7 @@ sudo apt-get install spotify-client
 sudo apt-get install git
 sudo apt-get install kalgebra
 sudo apt-get install emacs25
+sudo apt-get install vim
 sudo apt install racket
 sudo apt install intellij-idea-ultimate
 sudo apt-get update
