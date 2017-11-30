@@ -1,12 +1,25 @@
 sudo apt-get update
 sudo apt-get -y upgrade
+sudo apt-get dist-upgrade
 sudo add-apt-repository ppa:plt/racket
 sudo add-apt-repository ppa:ubuntuhandbook1/apps
 sudo add-apt-repository ppa:viktor-krivak/pycharm
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0DF731E45CE24F27EEEB1450EFDC8610341D9410
 echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-add-repository ppa:ninja-ide-developers/ninja-ide-stable
 sudo apt-get update
+sudo apt-get install inkscape
+sudo apt-get install scribus
+sudo apt-get install shutter
+sudo apt-get install clementine
+sudo apt-get install qbittorrent
+sudo apt-get install gimp
+sudo apt-get install ubuntu-restricted-extras
+sudo apt-get install libavcodec-extra
+sudo apt-get install libdvd-pkg
 sudo apt-get install spotify-client
+sudo apt-get install git
+sudo apt-get install kalgebra
 sudo apt install racket
 sudo apt install intellij-idea-ultimate
 sudo apt-get update
@@ -17,3 +30,4 @@ sudo apt-get install build-essential libssl-dev libffi-dev python-dev
 sudo apt-get install -y python3-venv
 sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 sudo apt install pycharm-professional
+sudo apt-get install ninja-ide
