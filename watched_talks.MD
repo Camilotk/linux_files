@@ -1,5 +1,6 @@
-[Mathematics](#mathematics)
-[Artificial Inteligence](#ai)
+### Index
+* [Mathematics](#mathematics)
+* [Artificial Inteligence](#ai)
 
 ### Mathematics
 * [The magic of Fibonacci numbers | Arthur Benjamin](https://www.youtube.com/watch?v=SjSHVDfXHQ4)
