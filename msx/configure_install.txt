@@ -1,0 +1,9 @@
+sudo apt-get install openmsx-catapult
+cp fs-a1gt_firmware.rom ~/.openMSX/share/machines
+cp fs-a1gt_kanjifont.rom ~/.openMSX/share/machines
+cp fs-a1gt_firmware.rom ~/.openMSX/share/systemroms
+cp fs-a1gt_kanjifont.rom ~/.openMSX/share/systemroms
+sudo vim /usr /share /applications /openmsx.desktop
+Exec=openmsx -machine Panasonic_FS-A1GT -ext ide
+
+https://www.msx-center.com/articles/11/setting-up-the-msx-c-environment-part-1
