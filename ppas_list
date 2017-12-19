@@ -27,6 +27,7 @@ sudo apt-get install kalgebra
 sudo apt-get install emacs25
 sudo apt-get install vim
 sudo apt-get install gdebi
+sudo apt-get install xclip
 sudo apt install racket
 sudo apt install intellij-idea-ultimate
 sudo apt-get install apache2
