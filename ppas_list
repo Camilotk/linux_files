@@ -9,6 +9,7 @@ echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sourc
 sudo apt-add-repository ppa:ninja-ide-developers/ninja-ide-stable
 sudo add-apt-repository ppa:ubuntu-elisp/ppa
 sudo add-apt-repository ppa:videolan/master-daily
+sudo add-apt-repository ppa:mc3man/trusty-media
 sudo apt-get update
 sudo apt-get install ubuntu-restricted-extras
 sudo apt install vlc
@@ -34,11 +35,12 @@ sudo apt-get install apache2
 sudo apt-get install mysql-server
 sudo apt-get update
 sudo apt-get -y upgrade
-python3 -V
-sudo apt-get install -y python3-pip
-sudo apt-get install build-essential libssl-dev libffi-dev python-dev
+sudo apt-get install -y python-pip python3-pip build-essential git python python3  python-dev python3-dev libsdl2-dev  libsdl2-image-dev  libsdl2-mixer-dev  libsdl2-ttf-dev libportmidi-dev  libswscale-dev libavformat-dev libavcodec-dev zlib1g-dev ffmpeg libssl-dev libffi-dev python-dev
 sudo apt-get install -y python3-venv
+sudo apt-get install ffmpeg
 sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 sudo apt install pycharm-professional
 sudo apt-get install ninja-ide
 sudo apt install python-pytest
+sudo pip install --upgrade pip virtualenv setuptools
+sudo pip install virtualenvwrapper
