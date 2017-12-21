@@ -26,13 +26,23 @@ sudo apt-get install spotify-client
 sudo apt-get install git
 sudo apt-get install kalgebra
 sudo apt-get install emacs25
-sudo apt-get install vim
+sudo apt-get install build-dep vim
 sudo apt-get install gdebi
 sudo apt-get install xclip
 sudo apt install racket
 sudo apt install intellij-idea-ultimate
 sudo apt-get install apache2
 sudo apt-get install mysql-server
+hg clone https://vim.googlecode.com/hg/ vim
+cd vim/src
+./configure --enable-puthoninterp --with-features=huge --prefix=$HOME/opt/vim
+make && make install
+mkdir -p $HOME/bin
+cd $HOME/bin
+ln -s $HOME/opt/vim/bin/vim
+which vim
+vim --version
+sudo apt-get install gtk2-engines-pixbuf
 sudo apt-get update
 sudo apt-get -y upgrade
 sudo apt-get install -y python-pip python3-pip build-essential git python python3  python-dev python3-dev libsdl2-dev  libsdl2-image-dev  libsdl2-mixer-dev  libsdl2-ttf-dev libportmidi-dev  libswscale-dev libavformat-dev libavcodec-dev zlib1g-dev ffmpeg libssl-dev libffi-dev python-dev
