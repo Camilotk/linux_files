@@ -33,6 +33,7 @@ sudo apt install racket
 sudo apt install intellij-idea-ultimate
 sudo apt-get install apache2
 sudo apt-get install mysql-server
+sudo apt install mercurial
 hg clone https://vim.googlecode.com/hg/ vim
 cd vim/src
 ./configure --enable-puthoninterp --with-features=huge --prefix=$HOME/opt/vim
