@@ -31,8 +31,6 @@ sudo apt-get install gdebi
 sudo apt-get install xclip
 sudo apt install racket
 sudo apt install intellij-idea-ultimate
-sudo apt-get install apache2
-sudo apt-get install mysql-server
 hg clone https://vim.googlecode.com/hg/ vim
 cd vim/src
 ./configure --enable-puthoninterp --with-features=huge --prefix=$HOME/opt/vim
@@ -54,3 +52,26 @@ sudo apt-get install ninja-ide
 sudo apt install python-pytest
 sudo pip install --upgrade pip virtualenv setuptools
 sudo pip install virtualenvwrapper
+
+sudo apt-get update
+sudo apt-get install apache2
+sudo lshw -short | grep network
+ip addr show "nome" | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
+sudo apt-get install mysql-server
+sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
+sudo nano /etc/apache2/mods-enabled/dir.conf
+"
+<IfModule mod_dir.c>
+       DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
+</IfModule>
+"
+sudo systemctl restart apache2
+sudo systemctl status apache2
+sudo apt-get update
+sudo apt-get install phpmyadmin php-mbstring php-gettext
+sudo phpenmod mcrypt
+sudo phpenmod mbstring
+sudo nano /etc/apache2/apache2.conf
++ Include /etc/phpmyadmin/apache.conf
+sudo systemctl restart apache2
+
