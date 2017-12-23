@@ -27,10 +27,12 @@ sudo apt-get install git
 sudo apt-get install kalgebra
 sudo apt-get install emacs25
 sudo apt-get install build-dep vim
+sudo apt-get install vim
 sudo apt-get install gdebi
 sudo apt-get install xclip
 sudo apt install racket
 sudo apt install intellij-idea-ultimate
+<<<<<<< HEAD
 hg clone https://vim.googlecode.com/hg/ vim
 cd vim/src
 ./configure --enable-puthoninterp --with-features=huge --prefix=$HOME/opt/vim
@@ -40,6 +42,10 @@ cd $HOME/bin
 ln -s $HOME/opt/vim/bin/vim
 which vim
 vim --version
+=======
+sudo apt-get install apache2
+sudo apt-get install mysql-server
+>>>>>>> b0057fca2aa3df451002e36afb5511e793bd99b5
 sudo apt-get install gtk2-engines-pixbuf
 sudo apt-get update
 sudo apt-get -y upgrade
