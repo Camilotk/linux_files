@@ -9,24 +9,8 @@ echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sourc
 sudo add-apt-repository ppa:ubuntu-elisp/ppa
 sudo add-apt-repository ppa:videolan/master-daily
 sudo apt-get update
-sudo apt-get install ubuntu-restricted-extras
-sudo apt install vlc
-sudo apt-get install inkscape
-sudo apt-get install scribus
-sudo apt-get install qbittorrent
-sudo apt-get install gimp
-sudo apt-get install libavcodec-extra
-sudo apt-get install libdvd-pkg
-sudo apt-get install spotify-client
-sudo apt-get install git
-sudo apt-get install emacs25
-sudo apt-get install build-dep vim
-sudo apt-get install vim
-sudo apt-get install gdebi
-sudo apt-get install xclip
-sudo apt install racket
-sudo apt install intellij-idea-ultimate
-sudo apt-get install gtk2-engines-pixbuf
+sudo apt-get install ubuntu-restricted-extras vlc inkscape scribus bittorrent gimp libavcodec-extra libdvd-pkg
+sudo apt-get install spotify-client git emacs25 build-dep vim gdebi xclip racket intellij-idea-ultimate gtk2-engines-pixbuf
 sudo apt-get update
 sudo apt-get -y upgrade
 sudo apt-get install -y python-pip python3-pip build-essential git python python3  python-dev python3-dev libsdl2-dev  libsdl2-image-dev  libsdl2-mixer-dev  libsdl2-ttf-dev libportmidi-dev  libswscale-dev libavformat-dev libavcodec-dev zlib1g-dev ffmpeg libssl-dev libffi-dev python-dev
