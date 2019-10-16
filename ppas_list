@@ -8,12 +8,12 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install vlc inkscape scribus bittorrent gimp
 
 # Programação
-sudo apt install git emacs build-dep vim gdebi xclip gcc make gdb zsh curl docker docker-compose
+sudo apt install git emacs build-essential vim gdebi xclip gcc make gdb zsh curl docker docker-compose
 curl -s "https://get.sdkman.io" | bash
 sdk install java 11.0.4.j9-adpt
 sdk install kotlin
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-sudo apt install -y python-pip python3-pip build-essential python python3 python-dev python3-dev python3-venv
+sudo apt install -y python-pip python3-pip python python3 python-dev python3-dev python3-venv
 echo 'http://emacs-bootstrap.com/'
 
 # Python
